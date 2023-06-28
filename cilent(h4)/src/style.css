@@ -1,0 +1,52 @@
+body{
+    background-image: url('../public/bg.jpg');
+    color: white;
+    background-size: cover;
+    /* background-position: center; */
+}
+#b1{
+    height: 370px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 30px;
+    background:transparent ;
+    backdrop-filter: blur(15px);
+}
+#b2{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 30px;
+    background:transparent ;
+    backdrop-filter: blur(15px);
+}
+.regtxt{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.regtxt:hover{
+    color:cadetblue;
+    /* color:rosybrown; */
+}
+button{
+    color: black;
+    width:290px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+input{
+    background: transparent;
+    width:240px;
+    padding: 10px;
+}
+input::placeholder{
+    color:beige;
+}
